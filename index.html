@@ -1,202 +1,170 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Yu Zhang's Website</title>
-  <meta name="viewport" content="width=device-width"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
-<link href="/icon/favicon.ico" rel="icon" type="image/x-icon" />
-<link href="/icon/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-<link href="/icon/favicon.ico" rel="Bookmark" type="image/x-icon" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Yu Zhang's Homepage</title>
+
+	<link href="res/css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+      .header {
+        width: auto;
+        max-width: auto;
+        font-family: Arial;
+        padding: 2rem 1rem;
+      }
+
+      a:link,a:visited
+      {
+        color: #0071bc;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #208799;
+      }
+
+      hr {
+        border: 10;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 113, 188, 0.2), rgba(0, 0, 0, 0.1), rgba(0, 113, 188, 0.2));
+      }
+
+      .gap-20 {height:20px;}
+      .gap-10 {height:10px;}
+      .hgap-6perc {width: 6%;}
+      .hgap-7perc {width: 7%;}
+
+      ::selection {
+        background: rgba(220, 220, 220);
+	  }
+
+      .section-div {height: 3em}
+      .content-div {height: 2em}
+      .small-div {height: 0.5em}
+
+	</style>
+	<!-- Bootstrap -->
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="res/js/bootstrap.min.js"></script>
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<div class="resume-wrapper">
-	<section class="profile section-padding">
-		<div class="container">
-			<div class="picture-resume-wrapper">
-        <div class="picture-resume">
-        <!-- <span><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="" /></span> -->
-        <span><img src="./Picture/profile.png" alt="" /></span>
-        <!-- <svg version="1.1" viewBox="0 0 350 350"> -->
-  
-  <defs>
-    <filter id="goo">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
-    </filter>
-  </defs>
-  
-  
-<g filter="url(#goo)" >  
-  
-  <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
-  
-  <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
 
-</g>  
-</svg>
-      </div>
-         <div class="clearfix"></div>
- </div>
-      <div class="name-wrapper">
-        <h1>Yu <br/>Zhang</h1><!-- YOUR NAME AND LAST NAME  -->
-      </div>
-      <div class="clearfix"></div>
-      <div class="contact-info clearfix">
-      	<ul class="list-titles">
-      		<!-- <li>Call</li> -->
-      		<li>Mail</li>
-      		<li>Web</li>
-      		<li>Home</li>
-      	</ul>
-        <ul class="list-content ">
-        	<!-- <li>+86 13818348519</li>  -->
-        	<li><a href="mailto:franklin-zhang@berkeley.edu">franklin-zhang@berkeley.edu</a></li> <!-- YOUR EMAIL -->
-        	<li><a href="https://franklin-zhang0.github.io/">https://franklin-zhang0.github.io/</a></li> <!-- YOUR WEBSITE  -->
-        	<li>Shanghai, China </li> <!-- YOUR STATE AND COUNTRY  -->
-        </ul>
-      </div>
-      <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
-      	<p>Interested in <span class="bold">Robotics</span> and <span class="bold">Reinforecement Learning</span>. </p>
-      </div>
-      <div class="contact-social clearfix">
-      	<ul class="list-titles">
-      		<li>QQ</li>
-<!--       		<li></li> -->
-      		<li>Github</li>
-      	</ul>
-        <ul class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
-      		<li><a href="tencent://message/?uin=812411780&Site=&Menu=yes">812411780</a></li> <!-- YOUR TWITTER USER  -->
-<!--       		<li><a href="">janderson</a></li>  YOUR DRIBBBLE USER  --> 
-      		<li><a href="https://github.com/Franklin-Zhang0" target="_blank">Franklin-zhang0</a></li> <!-- YOUR BEHANCE USER  -->
-      	</ul>
-      </div>
+<div class="header">
+	<div class="container">
+		<div class="content-div"></div>
+		<div class="row align-items-center">
+			<div class="col-md-3 align-column-center">
+				<center>
+					<img class="img-fluid" src="Picture/profile.jpg"
+					     style="border-radius:20px; border:1px; margin-bottom: 5px" width=85%" alt="">
+				</center>
+			</div>
+			<div class="col-md-9 align-column-center">
+				<h2> Yu Zhang </h2>
+				<h5> Preferred name: Franklin Zhang </h5>
+				Email: franklin.zhang AT qq.com<br>
+				<a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=GZeoy0oAAAAJ" target="_blank"> Google Scholar </a>
+				& <a href="https://github.com/Franklin-Zhang0" target="_blank"> GitHub </a>
+				& <a href="https://x.com/YZ_Franklin" target="_blank"> Twitter </a>
+
+				<div class="small-div"></div>
+				I am a senior student at ShanghaiTech University, currently applying to PhD programs with a research focus on the intersection of robotics and computer vision. 
+				My primary interest lies in developing algorithms for generalizable robotic manipulation by leveraging robotics foundation models and task-oriented perception.
+				<div class="small-div"></div>
+				In my junior year, I spent an exchange year at UC Berkeley, where I had the privilege of joining BAIR and collaborating with <a href="https://toruowo.github.io/" target="_blank">Toru Lin</a>.
+				Additionally, I completed a summer research internship at UT Austin advised by <a href="https://yukezhu.me/" target="_blank"> Prof. Yuke Zhu</a>.
+
+			</div>
 		</div>
-	</section>
-  
-  <section class="experience section-padding">
-  	<div class="container">
-  		<h3 class="experience-title">Experience</h3>
-      
-      <div class="experience-wrapper">
-      	<div class="company-wrapper clearfix">
-      		<div class="experience-title">Bachelor</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Sep 2021 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div>
-        
-        <div class="job-wrapper clearfix">
-        	<div class="experience-title"><a href="https://www.shanghaitech.edu.cn/">ShanghaiTech University</a></div> <!-- JOB TITLE  -->
-          <div class="company-description">
-            <ul style="list-style-type:disc;">
-          	  <li> Major in computer science, School of Information Science and Technology.</li>  <!-- JOB DESCRIPTION  -->
-            </ul>
-          </div>
-        </div>
-
-        <div class="company-wrapper clearfix">
-      		<div class="experience-title">Exchange Program</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Aug 2023 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div>
-        
-        <div class="job-wrapper clearfix">
-          <div class="experience-title"><a href="https://www.berkeley.edu/">UC Berkeley</a></div> <!-- JOB TITLE  -->
-            <div class="company-description">
-              <ul style="list-style-type:disc;">
-                <li> COE - BGA Program</li>  <!-- JOB DESCRIPTION  -->
-              </ul>
-            </div>
-          </div>
-        </div>
-
-
-        
-        <div class="company-wrapper clearfix">
-      		<div class="experience-title">Teaching Assistant</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Feb 2023 - July 2023</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div>
-         <div class="job-wrapper clearfix">
-        	<div class="experience-title">TA of CS100-2023 Introduction to Programming</div> <!-- JOB TITLE  -->
-          <div class="company-description">
-            <ul style="list-style-type:disc;">
-              <li>Gave tutorial and recitation lessons to students.</li> 
-              <li>Provide programming exercises as student's homework.</li>
-            </ul>
-            </p>  <!-- JOB DESCRIPTION  -->
-          </div>
-        </div>
-        
-        <div class="company-wrapper clearfix">
-      		<div class="experience-title">Undergraduate Researcher</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Sep 2022 - Jan 2023</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div> 
-        
-         <div class="job-wrapper clearfix">
-        	<div class="experience-title">Research at ShanghaiTech University under Prof. Yanhang Ma</div> <!-- JOB TITLE  -->
-          <div class="company-description">
-            <ul style="list-style-type:disc;">
-          	  <li>Using NerF to reconstruct microscopic images under electronic microscopes.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="company-wrapper clearfix">
-          <div class="experience-title">Undergraduate Researcher</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Sep 2023 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div> 
-        
-        <div class="job-wrapper clearfix">
-          <div class="experience-title">Research at <a href="https://bair.berkeley.edu/">BAIR</a> advised by Jitendra Malik </div> <!-- JOB TITLE  -->
-          <div class="company-description">
-            <ul style="list-style-type:disc;">
-              <li>Working on Behavior Cloning and Sim-to-Real</li>
-            </ul>
-          </div>
-        </div>
-        
-      </div><!--Skill experience-->
-      
-      <div class="section-wrapper clearfix">
-      	<h3 class="section-title">Skills</h3>  <!-- YOUR SET OF SKILLS  -->
-        	<ul>
-        		<li class="skill-percentage">C / C++</li>
-        		<li class="skill-percentage">Python</li>
-        		<li class="skill-percentage">Pytorch</li>
-            <li class="skill-percentage">IsaacGym</li>
-            
-        	</ul>
-        
-      </div>
-
-      <div class="section-wrapper2 clearfix">
-        <h3 class="section-title">More About Me</h3>  <!-- DESCRIPTION OF YOUR HOBBIES -->
-
-        <!-- <p><a href="apps/Resume.pdf" target="_blank">Get My Resume</a></p> -->
-        <p><a href="apps/CV.pdf" target="_blank">Get My CV</a>
-        <p><a href="apps/Transcript.pdf" target="_blank">Get My Transcript</a></p>
-        <!-- <p><a href="">Online Coding Platform</a></p><br> -->
-      </div>
-      
-  	</div>
-  </section>
-  
-  <div class="clearfix"></div>
+	</div>
 </div>
-<!-- partial -->
-  <script src='//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script><script  src="./script.js"></script>
 
-</body>
+<!-- <div class="container">
+	<h3> Activities </h3>
+	<li>
+		
+	</li>
+	<li>
+		
+	</li>
+	<div class="content-div"></div>
+</div> -->
+
+
+<div class="container">
+	<!-- publications come here -->
+	<h3> Papers <font size="3" style="font-weight:normal">(*indicates equal technical contribution)</font></h3>
+	<div class="content-div"></div>
+
+	<div class="row align-items-center">
+		<div class="col-md-3 align-column-center">
+			<center>
+				<video playsinline autoplay loop muted src="res/figs/corl24.mp4" width="98%"
+				       style="border-radius:10px;"></video>
+			</center>
+		</div>
+		<div class="col-md-9">
+			<font size="4"> <b> Multi-Task Interactive Robot Fleet Learning with Visual World Models  </b></font><br>
+			<font size="3">
+				<a href="https://huihanl.github.io/" target="_blank"> Huihan Liu</a>,
+				<b> Yu Zhang</b>,
+				<a href="https://www.linkedin.com/in/vaarij-betala/" target="_blank"> Vaarij Betala</a>
+				<a href="https://www.linkedin.com/in/evan-zhang-81a9a9269/" target="_blank">Evan Zhang</a>
+				<a href="https://www.linkedin.com/in/jamesshuangliu/" target="_blank"> James Liu</a>
+				<a href="https://www.linkedin.com/in/ding-crystal/" target="_blank"> Crystal Ding </a>
+				<a href="https://yukezhu.me/" target="_blank"> Yuke Zhu </a>
+			</font>
+			<br>
+			Conference on Robot Learning (<b>CoRL</b>) 2024<br>
+			<a href="https://arxiv.org/abs/2410.22689" target="_blank"> [Paper] </a>
+			<a href="https://ut-austin-rpl.github.io/sirius-fleet/" target="_blank"> [Website] </a>
+		</div>
+	</div>
+
+	<div class="content-div"></div>
+
+	<!------------------------- Arxiv 24 --------------------------------->
+	<div class="row align-items-center">
+		<div class="col-md-3 align-column-center">
+			<center>
+				<video playsinline autoplay loop muted src="res/figs/hato.mp4" width="98%"
+				       style="border-radius:10px;"></video>
+			</center>
+		</div>
+		<div class="col-md-9">
+			<font size="4"> <b> Learning Visuotactile Skills with Two Multifingered Hands  </b></font><br>
+			<font size="3">
+				<a href="https://toruowo.github.io/" target="_blank"> Toru Lin</a>*,
+				<b> Yu Zhang*</b>,
+				<a href="https://colinqiyangli.github.io/" target="_blank"> Qiyang Li*</a>,
+				<a href="https://haozhi.io/" target="_blank"> Haozhi Qi*</a>
+				<a href="https://scholar.google.com/citations?user=Ecy6lXwAAAAJ&hl=en" target="_blank"> Brent Yi</a>
+				<a href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank"> Sergey Levine </a>
+				<a href="https://people.eecs.berkeley.edu/~malik/" target="_blank"> Jitendra Malik </a>
+			</font>
+			<br>
+			Robotics: Science and Systems (<b>RSS</b>) GenAI-HRI Workshop 2024<br>
+			<a href="http://arxiv.org/abs/2404.16823" target="_blank"> [Paper] </a>
+			<a href="https://toruowo.github.io/hato/" target="_blank"> [Website] </a>
+			<a href="https://x.com/ToruO_O/status/1783892120631484919" target="_blank"> [Twitter] </a>
+		</div>
+	</div>
+	<div class="content-div"></div>	
+
+</div>
+
+<div class="section-div"></div>
+
 </html>
